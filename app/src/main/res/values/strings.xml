@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Kartvizit App</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">All People</string>
+    <string name="menu_work">Work Group</string>
+    <string name="menu_play">Play Group</string>
+    <string name="menu_school">School Group</string>
+    <string name="menu_family">Family Group</string>
+    <string name="menu_friends">Friends Group</string>
+
+
+    <string-array name="Languages">
+
+        <item>Work Group</item>
+        <item>Play Group</item>
+        <item>School Group</item>
+        <item>Friends Group</item>
+        <item>Family Group</item>
+
+    </string-array>
+</resources>

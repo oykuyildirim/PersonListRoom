@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PersonDetail"
+    android:background="@drawable/normalbackground">
+
+    <TextView
+        android:id="@+id/name_detail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="157dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="157dp"
+        android:text="TextView"
+        android:textColor="@color/purple"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/surname_detail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="157dp"
+        android:layout_marginTop="69dp"
+        android:layout_marginEnd="157dp"
+        android:text="TextView"
+        android:textColor="@color/purple"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/name_detail" />
+
+    <TextView
+        android:id="@+id/phone_detail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="68dp"
+        android:layout_marginEnd="157dp"
+        android:text="TextView"
+        android:textColor="@color/purple"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.802"
+        app:layout_constraintStart_toEndOf="@+id/phoneImg"
+        app:layout_constraintTop_toBottomOf="@+id/surname_detail" />
+
+    <TextView
+        android:id="@+id/adress_detail"
+        android:layout_width="209dp"
+        android:layout_height="67dp"
+        android:layout_marginTop="76dp"
+        android:layout_marginEnd="72dp"
+        android:text="Textview"
+        android:textColor="@color/purple"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageView4"
+        app:layout_constraintTop_toBottomOf="@+id/group_detail" />
+
+    <TextView
+        android:id="@+id/group_detail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:layout_marginEnd="157dp"
+        android:text="TextView"
+        android:textColor="@color/purple"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.802"
+        app:layout_constraintStart_toEndOf="@+id/groupImg"
+        app:layout_constraintTop_toBottomOf="@+id/phone_detail" />
+
+    <Button
+        android:id="@+id/delete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="157dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="157dp"
+        android:backgroundTint="@color/purple"
+        android:text="delete"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.428"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/adress_detail" />
+
+    <Button
+        android:id="@+id/update"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="157dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="157dp"
+        android:backgroundTint="@color/purple"
+        android:text="update"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/delete" />
+
+    <ImageView
+        android:id="@+id/phoneImg"
+        android:layout_width="60dp"
+        android:layout_height="54dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="212dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+       android:src="@drawable/phone" />
+
+    <ImageView
+        android:id="@+id/groupImg"
+        android:layout_width="60dp"
+        android:layout_height="54dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="44dp"
+        android:src="@drawable/group"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/phoneImg" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="60dp"
+        android:layout_height="54dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="44dp"
+        android:src="@drawable/house"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/groupImg" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
